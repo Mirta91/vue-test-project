@@ -19,6 +19,7 @@
     <table>
       <!-- ovdje napraviti tablicu -->
     </table>
+    {{users}}
 <table>
   <tr>
     <th>Avatar</th>
@@ -55,7 +56,7 @@ export default {
   },
   async mounted() {
     const { data } = await this.axios.get(
-      "https://jsonplaceholder.typicode.com/users"
+      "https://api.infosit-zadatak.tk/api/entity"
     );
     this.users = data;
   },
