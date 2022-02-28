@@ -2,7 +2,7 @@
   <div class="p-6">
     <h2 class="text-center font-sans text-2xl pb-10">Users Table</h2>
     <!--
-      1. dohvati podatke sa https://jsonplaceholder.typicode.com/users kod učitavanja modula i dodaj te podatke u varijablu users
+      1. dohvati podatke sa https://api.infosit-zadatak.tk/api/entity kod učitavanja modula i dodaj te podatke u varijablu users
       2. prikaži podatke dobivene u varijabli users unutar tablice 
          - tablica mora sadržavati sljedeće stupace: avatar, ime, država, opis
          - slika u avataru treba biti dimenzija 50x50px
@@ -54,6 +54,7 @@ export default {
       users: [],
     };
   }
+  //dohvati podatke sa https://api.infosit-zadatak.tk/api/entity kod učitavanja modula i dodaj te podatke u varijablu users
 }
 </script>
 
